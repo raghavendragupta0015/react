@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.card {
+  background-color: pink;
+  color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: brown;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style: none;
+  color: #fff;
+}
+
+.navbar ul li:hover {
+  text-decoration: underline;
+  transition: 0.5ms;
+}
