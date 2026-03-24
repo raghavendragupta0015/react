@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+#rightCard::-webkit-scrollbar {
+  display: none;
+}
