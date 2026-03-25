@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 100px;
+  background-color: black;
+  color: white;
+  padding: 40px 80px;
+  width: fit-content;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button {
+  color: #ffff;
+  background-color: blue;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  margin: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
