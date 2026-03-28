@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@layer components {
+  .fall-topLeft {
+    animation: fallTopLeft linear infinite;
+  }
+
+  .fall-topRight {
+    animation: fallTopRight linear infinite;
+  }
+}
+
+@keyframes fallTopLeft {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-200px, 100vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes fallTopRight {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(200px, 100vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+h1 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  white-space: nowrap;
+  font-weight: bold;
+  text-transform: capitalize;
+}
