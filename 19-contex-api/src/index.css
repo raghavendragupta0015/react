@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.light {
+  display: flex;
+  background: lightseagreen;
+  color: white;
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark {
+  display: flex;
+  background: darkgreen;
+  color: white;
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav2 {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
